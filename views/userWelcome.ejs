@@ -1,0 +1,31 @@
+<%- include("partials/header") -%>
+
+<nav>
+    <div class="logo"><h1>Nav<span>bar.</span></h1></div>
+    <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="/register"><button>Register</button></a>
+        <a href="/signin"><button>Sign in</button></a>
+    </div>
+</nav>
+<div class="first-container">
+    <h1>Welcome <span class="userSpan"><%= userName %></span></h1>
+    <h2>Eat | Code | Repeat</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis repellendus dicta consectetur sed eveniet voluptatem ipsum nostrum iure quod dolor! Illo minus officiis vitae consectetur, assumenda consequatur deleniti libero asperiores.</p>
+</div>
+
+        <footer class="second-container">
+          <p>&copy; 2022 Designed by Varun with ❤️</p>
+          <ul>
+            <li class="nav-item"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#">Features</a></li>
+            <li class="nav-item"><a href="#">Pricing</a></li>
+            <li class="nav-item"><a href="#">FAQs</a></li>
+            <li class="nav-item"><a href="#">About</a></li>
+          </ul>
+        </footer>
+
+<%- include("partials/footer") -%>

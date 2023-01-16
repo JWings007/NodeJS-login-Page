@@ -1,0 +1,22 @@
+<%- include("partials/header") -%>
+
+<div class="container">
+    <div class="register-head"><h1>Sign<span>In.</span></h1></div>
+    <div class="form-content form-contentSI">
+    <form method="post" action="/signin">
+        <div class="mb-3">
+          <label for="exampleInputEmail2" class="form-label">Email <span>Id</span></label>
+          <input type="email" class="form-control" id="exampleInputEmail2" name="emailId" aria-describedby="emailHelp" required autocomplete="off">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword2" class="form-label">Pass<span>word</span></label>
+          <input type="password" class="form-control" id="exampleInputPassword2" name="password" required>
+        </div>
+        <button type="submit" id="btn-reg">Sign In</button>
+        <span class="passUpdate" id="pU"><%= passUpdate %></span>
+      </form>
+      <a href="/forgot-password">forgot password!</a>
+    </div>
+</div>
+
+<%- include("partials/footer") -%>

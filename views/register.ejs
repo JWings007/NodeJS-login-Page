@@ -1,0 +1,30 @@
+<%- include("partials/header") -%>
+
+<div class="container">
+    <div class="register-head"><h1>Regi<span>ster.</span></h1></div>
+    <div class="form-content">
+    <form method="post" action="/register">
+        <div class="mb-3">
+          <label for="first-name" class="form-label">First <span>Name</span></label>
+          <input type="text" class="form-control" id="first-name" name="firstName" aria-describedby="emailHelp" required>
+        </div>
+        <div class="mb-3">
+          <label for="last-name" class="form-label">Last  <span>Name</span></label>
+          <input type="text" class="form-control" id="last-name" name="lastName" aria-describedby="emailHelp" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email <span>Id</span></label>
+          <input type="email" class="form-control" id="exampleInputEmail1" name="emailId" aria-describedby="emailHelp" required>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Pass<span>word</span></label>
+          <input type="password" class="form-control" id="exampleInputPassword1" name="password" required>
+        </div>
+        <button type="submit" id="btn-reg">Submit</button> <span class="updates"></span>
+      </form>
+      <h2>Have one?</h2><span><a href="/signin" class="registerA">SignIn</a></span>
+      
+    </div>
+</div>
+
+<%- include("partials/footer") -%>

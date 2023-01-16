@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.logo h1 {
+    color: #ece8e1;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.logo span {
+    color: rgb(255, 120, 79);
+}
+
+nav {
+    width: 100%;
+    height: 15vh;
+    background-color: #0f1923;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.nav-links a:hover {
+    color: #d9d6d1;
+}
+
+.nav-links button {
+    width: 90px;
+    height: 35px;
+    border: none;
+    margin: 0 10px;
+    background-color: #ece8e1;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.nav-links button:hover {
+    background-color: rgb(255, 120, 79);
+    color: #ece8e1;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.register-container {
+    border: 2px solid black;
+}
+
+#first-name, #last-name, #exampleInputEmail1, #exampleInputPassword1 {
+    width: 350px;
+}
+
+#btn-reg {
+    background-color: #ece8e1;
+    color: #0f1923;
+    border: none;
+    border-radius: 0;
+    font-size: 13px;
+    width: 110px;
+    height: 40px;
+}
+
+#btn-reg:hover {
+    background-color: rgb(255, 120, 79);
+    color: #ece8e1;
+}
+
+label span {
+    color: rgb(255, 120, 79);
+}
+
+label {
+    color: #ece8e1;
+}
+
+.register-head h1{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.register-head span {
+    color: rgb(255, 120, 79);
+}
+
+form {
+    padding: 30px 75px;
+}
+
+.form-content {
+    width: 500px;
+    height: 520px;
+    background-color: #0f1923;
+    border-radius: 20px;
+}
+
+.form-content h2 {
+    color: #ece8e1;
+    margin-top: -10px;
+    padding: 0 75px;
+    font-size: 16px;
+    display: inline;
+    padding-right: 40px;
+}
+
+.registerA {
+    color: rgb(255, 120, 79);
+}
+
+.updates {
+    color: #ece8e1;
+    padding: 0 30px;
+}
+
+.form-contentSI {
+    height: 350px;
+}
+
+.exists-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 60px;
+}
+
+.msg {
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.exist-btn {
+    background-color: #ece8e1;
+    color: #0f1923;
+    border: none;
+    font-size: 13px;
+    width: 125px;
+    height: 45px;
+}
+
+.exist-btn:hover {
+    background-color: rgb(255, 120, 79);
+    color: #ece8e1;
+}
+
+.heading span {
+    color: rgb(255, 120, 79);
+}
+
+.passUpdate {
+    color: #ece8e1;
+}
+
+#passUpdate {
+    padding-left: 20px;
+}
+
+.userSpan {
+    color: rgb(255, 120, 79);
+}
+
+.first-container {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.first-container h1 {
+    padding: 15px 0;
+}
+
+.first-container p {
+    margin: 5px 0;
+    padding: 0 8rem;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+
+.second-container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0f1923;
+}
+
+.second-container p {
+    color: #ece8e1;
+    padding-top: 20px;
+}
+
+.second-container ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.second-container ul li {
+    list-style: none;
+    margin: 5px 10px;
+}
+
+.second-container ul li a {
+    text-decoration: none;
+    color: #ece8e1;
+}
+
+.form-contentSI a {
+    padding: 0 75px;
+    color: rgb(255, 120, 79);
+}
+
+.form-contentFP {
+    height: 400px;
+}
+
+.passChangeContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
